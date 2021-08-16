@@ -105,30 +105,25 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 	
 	.user1, .user2, .user3, .user4{
 		width: 168px;
-		display: flex;
 		justify-content: center;
 		cursor: pointer;
+		border: 2px solid transparent;
 	}
 
-	.user1:hover, .user2:hover, .user3:hover{
+	.user1:hover, .user2:hover, .user3:hover, .user4:hover{
 		border: 2px solid white;
 	}
 
 	.i{
 		position: relative;
 		top: 13px;
-		right: 10px;
 	}
 
 	.user4{
 		width: 100px;
 		height: 100px;
 		margin-top: 25px;
-	}
-
-	.user4:hover{
-		border: 2px solid white;
-		border-radius: 100%;
+		border-radius: 100%;	
 	}
 
 	 figcaption {
